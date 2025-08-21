@@ -1,0 +1,21 @@
+/* src/pages/Home.css */
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), #1976d2;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+}
+
+.category-card {
+  transition: transform 0.2s;
+  cursor: pointer;
+  text-align: center;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+}
